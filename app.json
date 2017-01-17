@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/count/count",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "计算器",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/count/count",
+      "text": "计算器"      
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "信息"      
+    },{
+      "pagePath": "pages/index/index",
+      "text": "首页"     
+    }]
+  },
+  "debug":true
+}

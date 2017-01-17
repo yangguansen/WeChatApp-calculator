@@ -1,0 +1,62 @@
+.main{
+    height:30%;
+background-color:#222;
+color:#fff;
+font-size:100px;
+display:flex;
+justify-content:flex-end;
+align-items:center;
+
+}
+page{
+    height: 100%;
+}
+.main-text{
+    height:8rem;
+}
+.caculate-body{
+    font-size:50px;
+    height:70%;
+    border-top:1px solid #000;
+box-sizing:border-box;
+bottom:0;
+position:absolute;
+text-align:center;
+line-height:150rpx;
+
+
+}
+.body-1{
+    text-align:center;
+}
+.body-num{
+    width:5rem;
+    height:100%;
+
+    float:left;
+    border-left:1px solid #222;
+    box-sizing:border-box;
+    border-bottom:1px solid #222;
+}
+.body-1, .body-2, .body-3{
+    height:20%;
+}
+.body-4, .body-5{
+    height:50%;
+
+}
+.body-4-parent{
+    height:40%;
+width:15rem;
+float:left;
+}
+.body-0{
+    width:10rem;
+}
+.body-6{
+    height:40%;
+line-height:300rpx;
+}
+.tap-class{
+    background-color:yellow;
+}

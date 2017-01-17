@@ -1,0 +1,36 @@
+<view class="main">
+    <text class="main-text">{{result}}</text>
+</view>
+<view class="caculate-body">
+    <view class="body-1">
+        <view class="body-num" bindtap="chooseOperation" data-key="+" hover="true" hover-class="tap-class">+</view>
+        <view class="body-num" bindtap="chooseOperation" data-key="-" hover="true" hover-class="tap-class">-</view>
+        <view class="body-num" bindtap="chooseOperation" data-key="*" hover="true" hover-class="tap-class">*</view>
+        <view class="body-num" style="border-right:1px solid #000;" bindtap="chooseOperation" data-key="/" hover="true" hover-class="tap-class">/</view>    
+    </view>
+    <view class="body-2">
+        <view class="body-num" bindtap="chooseNum" hover="true" data-key="1" hover="true" hover-class="tap-class">1</view>
+        <view class="body-num" bindtap="chooseNum" data-key="2" hover="true" hover-class="tap-class">2</view>
+        <view class="body-num" bindtap="chooseNum" data-key="3" hover="true" hover-class="tap-class">3</view>
+        <view class="body-num" style="border-right:1px solid #000;" bindtap="deleteNum" data-key="←" hover="true" hover-class="tap-class">←</view>    
+    </view>
+    <view class="body-3">
+        <view class="body-num" bindtap="chooseNum" data-key="4" hover="true" hover-class="tap-class">4</view>
+        <view class="body-num" bindtap="chooseNum" data-key="5" hover="true" hover-class="tap-class">5</view>
+        <view class="body-num" bindtap="chooseNum" data-key="6" hover="true" hover-class="tap-class">6</view>
+        <view class="body-num" style="border-right:1px solid #000;" bindtap="clearNum" data-key="C" hover="true" hover-class="tap-class">C</view>    
+    </view>
+    <view class="body-4-parent">
+        <view class="body-4">
+            <view class="body-num" bindtap="chooseNum" data-key="7" hover="true" hover-class="tap-class">7</view>
+            <view class="body-num" bindtap="chooseNum" data-key="8" hover="true" hover-class="tap-class">8</view>
+            <view class="body-num" bindtap="chooseNum" data-key="9" hover="true" hover-class="tap-class">9</view>                   
+        </view>
+        <view class="body-5">
+            <view class="body-num body-0" bindtap="chooseNum" data-key="0" hover="true" hover-class="tap-class">0</view>
+            <view class="body-num" bindtap="chooseDot" data-key="." hover="true" hover-class="tap-class">.</view>          
+        </view>
+    </view>
+    
+    <view class="body-6 body-num" bindtap="calNum"  style="border-right:1px solid #000;" hover="true" hover-class="tap-class">=</view>
+</view>
