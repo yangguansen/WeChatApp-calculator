@@ -29,6 +29,10 @@ line-height:150rpx;
 .body-1{
     text-align:center;
 }
+.body-1 .body-num:nth-child(4), .body-2 .body-num:nth-child(4), .body-3 .body-num:nth-child(4){
+    border-right:1px solid #000;
+}
+
 .body-num{
     width:5rem;
     height:100%;
@@ -50,7 +54,7 @@ line-height:150rpx;
 width:15rem;
 float:left;
 }
-.body-0{
+.body-0, .body-5 .body-num:nth-child(1){
     width:10rem;
 }
 .body-6{

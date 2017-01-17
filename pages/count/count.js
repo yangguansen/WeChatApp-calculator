@@ -4,7 +4,54 @@ var calItem;                //运算项+-*/
 var calResult;              //运算结果
 Page({
     data:{
-        result:"0",       
+        result:"0",
+        XMLItem:[
+            {             
+                class:'body-1',
+                item : [
+                    {key:'+', tapclass : 'chooseOperation'},
+                    {key:'-', tapclass : 'chooseOperation'},
+                    {key:'*', tapclass : 'chooseOperation'},         
+                    {key:'/', tapclass : 'chooseOperation'}
+                ]
+            },
+            {                
+                class:'body-2',
+                item : [
+                    {key:'1', tapclass : 'chooseNum'},
+                    {key:'2', tapclass : 'chooseNum'},
+                    {key:'3', tapclass : 'chooseNum'},         
+                    {key:'←', tapclass : 'deleteNum'}
+                ]
+            },
+            {
+                class:'body-3',
+                item : [
+                    {key:'4', tapclass : 'chooseNum'},
+                    {key:'5', tapclass : 'chooseNum'},
+                    {key:'6', tapclass : 'chooseNum'},         
+                    {key:'C', tapclass : 'clearNum'}
+                ]
+            }
+        ],
+        body4parentItem : [
+            {
+                class:'body-4',
+                item:[
+                     {key:'7', tapclass : 'chooseNum'},
+                    {key:'8', tapclass : 'chooseNum'},
+                    {key:'9', tapclass : 'chooseNum'}         
+                ]
+            },
+            {
+                class:'body-5',
+                item:[
+                     {key:'0', tapclass : 'chooseNum'},
+                    {key:'.', tapclass : 'chooseDot'}    
+                ]
+            }
+        ],
+        
     },
     initvariable : function(){
         calResult = undefined;
